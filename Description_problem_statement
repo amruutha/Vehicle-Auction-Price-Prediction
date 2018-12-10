@@ -1,0 +1,17 @@
+DATA DESCRIPTION
+
+The data has 10 features. ID is the unique identifier of the data point. Other feature are attributes of the data point in space. Feature 10 is the target variable. Feature 5, 6, 7 and 8 are categorical in nature meaning although they are represented by a number, that number has no hierarchical significance.
+
+The first 3400 rows can be used for training/internal testing. The target variable is provided for them. The last 382 rows are evaluation data, for which the target is to be predicted and submitted.
+
+PROBLEM STATEMENT
+
+A department in one of the vehicle auctioning company has  one of the key challenges is to correctly predict the price of the vehicle that can be achieved in an auction with the limited amount of information available.
+The data set provided is a sample of the high dimensional data we use for predictions. Feature 10 is the price that is to be predicted using other features provided. With more categories in the features. 
+
+The model can be as complex as needed if it leads to better accuracy. Accuracy measures being defined by:
+1.	Mean Absolute Error
+2.	Mean Error
+3.	Root Mean Squared Error
+
+
